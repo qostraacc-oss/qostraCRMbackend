@@ -79,5 +79,5 @@ jobs:
             
             # --- IMPORTANT ---
             # Restart the application service
-            # Example: sudo systemctl restart qostra
-            ${{ secrets.RESTART_COMMAND || 'sudo systemctl restart qostra' }}
+            # Example: sudo systemctl restart qostraCRM
+            ${{ secrets.RESTART_COMMAND || 'sudo systemctl restart qostraCRM' }}
